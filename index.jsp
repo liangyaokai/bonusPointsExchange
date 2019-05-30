@@ -27,12 +27,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div class="index clearfix">
   <div class="index1">
     <ul>
-      <li>Bank</li>
-      <li>Airline</li>
-      <li>Supermarket</li>
-      <li>Restaurant</li>
-      <li>MegaMalls</li>
-      <li style="border:none">Other</li>
+      <li>信用</li>
+      <li>房型</li>
+      <li>地段</li>
+      <li>金额</li>
+      <li style="border:none">其他</li>
     </ul>
   </div>
   <div class="index2">
@@ -95,7 +94,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
       <!---- 事例1------>
       <div class="order-info clearfix">
         <ul >
-          <li class="shop-logo"><img src="images/house/1.png"/></li>
+          <li class="shop-logo"><a href="实验代码.html"><img src="images/house/1.png"/></a></li>
           <li class="info">
             <table>
               <tr>
@@ -114,7 +113,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
           </li>
           <li class="operate">
   	 <form action="/bonusPointsExchange/ReferencePriceServlet" method="post">
-        <input name="exchange" type="button" class="submitBtn" id="exchange" value="Exchange">
+        <input href="index.jsp" name="exchange" type="button" class="submitBtn" id="exchange" value="Exchange">
       </form>           
           </li>
         </ul>
@@ -126,14 +125,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
           <li class="info">
             <table>
               <tr>
-                <td>Merchant:AncAirlines</td>
+                <td>区域:白云</td>
+                <td>租金：2300</td>
               </tr>
               <tr>
-                <td>Number of bonus:100</td>
-                <td>Number of Target bonus:120</td>
+                <td>房型：二房一卫一厅</td>
+                <td>租期：一年以上</td>
               </tr>
               <tr>
-                <td>Deadline:2016-11-20</td>
+                <td>房东电话：13694297273</td>
                 <td></td>
               </tr>
             </table>
@@ -150,15 +150,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
           <li class="info">
             <table>
               <tr>
-                <td>Merchant:AncAirlines</td>
-                <td>Target merchant:636Airlines</td>
+                <td>区域:白云</td>
+                <td>租金：2800</td>
               </tr>
               <tr>
-                <td>Number of bonus:100</td>
-                <td>Number of target bonus:120</td>
+                <td>房型：三房一厅两卫</td>
+                <td>租期：一年以上</td>
               </tr>
               <tr>
-                <td>Deadline:2016-11-20</td>
+                <td>房东电话：13694297273</td>
                 <td></td>
               </tr>
             </table>
@@ -175,15 +175,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
           <li class="info">
             <table>
               <tr>
-                <td>Merchant:AncAirlines</td>
-                <td>Target merchant:636Airlines</td>
+                <td>区域:天河</td>
+                <td>租金：3000</td>
               </tr>
               <tr>
-                <td>Number of bonus100</td>
-                <td>Number of Target bonus120</td>
+                <td>房型：两房一厅</td>
+                <td>租期：半年以上</td>
               </tr>
               <tr>
-                <td>Deadline:2016-11-20</td>
+                <td>房东电话：1234567891011</td>
                 <td></td>
               </tr>
             </table>
@@ -200,15 +200,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
           <li class="info">
             <table>
               <tr>
-                <td>Merchant:AncAirlines</td>
-                <td>TargetAirlines:636Airlines</td>
+                <td>区域:越秀</td>
+                <td>租金：800</td>
               </tr>
               <tr>
-                <td>Number of bonus:100</td>
-                <td>Number of target bonus:120</td>
+                <td>房型：单房</td>
+                <td>租期：半年以上</td>
               </tr>
               <tr>
-                <td>Deadline:2016-11-20</td>
+                <td>房东电话：12345678901011</td>
                 <td></td>
               </tr>
             </table>
